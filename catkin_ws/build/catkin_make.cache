@@ -1,0 +1,2 @@
+legoboost_roboter:ros_course_part2:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations:turtlesim_cleaner:ydlidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/legoboost/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/legoboost/catkin_ws/install -G Unix Makefiles

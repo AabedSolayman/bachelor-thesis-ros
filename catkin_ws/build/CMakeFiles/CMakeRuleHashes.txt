@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+aecd041ae5b84fdf2502aa0fdffc9552 /home/legoboost/catkin_ws/devel/share/roseus/ros/turtlesim_cleaner/manifest.l
+11ae05e7826c3e512409c6fc8210f815 CMakeFiles/clean_test_results
+15e5d87de377f2d0f17cb4fb1e097972 turtlesim_cleaner/CMakeFiles/turtlesim_cleaner_generate_messages_eus

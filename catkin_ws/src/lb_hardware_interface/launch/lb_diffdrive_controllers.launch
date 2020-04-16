@@ -1,0 +1,10 @@
+<launch>
+    <rosparam file="$(find lb_hardware_interface)/config/hardware.yaml" command="load"/>
+    <rosparam file="$(find lb_hardware_interface)/config/controllers.yaml" command="load"/>
+    <rosparam file="$(find lb_hardware_interface)/config/joint_limits.yaml" command="load"/>
+    <node name="lb_hardware_interface" pkg="lb_hardware_interface" type="lb_hardware_interface_node" output="screen"/>
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/"
+        args="
+            /lb/controller/lb_diff_controller
+        "/>
+</launch>

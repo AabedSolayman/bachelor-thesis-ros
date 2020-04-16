@@ -1,0 +1,8 @@
+prefix=/home/legoboost/catkin_ws/install
+
+Name: legoboost_roboter
+Description: Description of legoboost_roboter
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llegoboost_roboter
+Requires: roscpp rospy std_msgs tf

@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{joseph_understanding_2015}
+Lentin Joseph.
+\newblock {\em Understanding the {ROS} file system level - {Mastering} {ROS}
+  for {Robotics} {Programming}}.
+\newblock December 2015.
+
+\bibitem{foote_laser_filters_nodate}
+Tully Foote.
+\newblock laser\_filters - {ROS} {Wiki}.
+
+\bibitem{przybyla_tysikobstacle_detector_2020}
+Mateusz Przybyla.
+\newblock tysik/obstacle\_detector, May 2020.
+\newblock original-date: 2017-06-27T15:25:29Z.
+
+\bibitem{joseph_learning_2018}
+Lentin Joseph.
+\newblock {\em Learning {Robotics} using {Python} - {Second} {Edition}}.
+\newblock June 2018.
+
+\bibitem{noauthor_sensor_msgslaserscan_nodate}
+sensor\_msgs/{LaserScan} {Documentation}.
+
+\bibitem{noauthor_urdfxmljoint_nodate}
+urdf/{XML}/joint - {ROS} {Wiki}.
+
+\bibitem{noauthor_rep_nodate}
+{REP} 120 -- {Coordinate} {Frames} for {Humanoid} {Robots} ({ROS}.org).
+
+\end{thebibliography}

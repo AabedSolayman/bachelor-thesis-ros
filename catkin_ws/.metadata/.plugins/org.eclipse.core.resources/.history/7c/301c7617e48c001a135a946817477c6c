@@ -1,0 +1,64 @@
+#include "ros/ros.h"
+#include <tf2/LinearMath/Quaternion.h>
+#include "obstacle_detector/Obstacles.h"
+#include "geometry_msgs/Pose.h"
+#include "geometry_msgs/Point.h"
+#include "math.h"
+
+
+
+
+class PoseFinder
+{
+private:
+	geometry_msgs:: Point pointTop;
+	geometry_msgs:: Point pointBottom;
+	geometry_msgs:: Pose robotsPose;
+	double yawRad = 0;
+	tf2::Quaternion robot_orientation;
+public:
+	PoseFinder(){
+		ros::NodeHandle n;
+		ros::Subscriber sub_top = n.subscribe("/lidar_top/raw_obstacles",1000,obstaclesTopCallback);
+		ros::Subscriber sub_bottom = n.subscribe("/lidar_bottom/raw_obstacles",1000,obstaclesTopCallback);
+
+	}
+
+
+
+void obstaclesTopCallback(const obstacle_detector::Obstacles::ConstPtr& msg)
+{
+	pointTop = msg->circles[0].center;
+
+}
+
+void obstaclesBottomCallback(const obstacle_detector::Obstacles::ConstPtr& msg)
+{
+	pointBottom= msg->circles[0].center;
+}
+
+geometry_msgs:: Pose robotPose(){
+	robotsPose.position = (pointTop-pointBottom)/2;
+
+	yawRad = atan2(robotPose.position.y, robotPose.position.x);
+
+	robot_orientation.setRPY(0,0,yawRad);
+
+	robotPose.orientation = robot_orientation;
+
+
+	return robotPose;
+}
+
+};
+
+int main(int argc, char **argv)
+{
+
+	ros::init(argc, argv, "pose_detector");
+
+	ros::spin();
+
+
+
+}

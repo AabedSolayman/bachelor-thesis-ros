@@ -1,0 +1,8 @@
+prefix=/home/legoboost/catkin_ws/devel
+
+Name: lb_hardware_interface
+Description: Description of lb_hardware_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

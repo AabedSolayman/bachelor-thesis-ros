@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
     // message declarations
     geometry_msgs::TransformStamped odom_trans;
     sensor_msgs::JointState joint_state;
-    odom_trans.header.frame_id = "odom";
+    odom_trans.header.frame_id = "robot";
     odom_trans.child_frame_id = "base_footprint";
 
     while (ros::ok()) {
@@ -46,15 +46,7 @@ int main(int argc, char** argv) {
         joint_pub.publish(joint_state);
         broadcaster.sendTransform(odom_trans);
 
-        // Create new robot state
-//        tilt += tinc;
-//        if (tilt<-.5 || tilt>0) tinc *= -1;
-//        height += hinc;
-//        if (height>.2 || height<0) hinc *= -1;
-//        swivel += degree;
-//        angle += degree/4;
 
-        // This will adjust as needed per iteration
         loop_rate.sleep();
     }
 

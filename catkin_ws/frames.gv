@@ -1,0 +1,8 @@
+digraph G {
+"base_footprint" -> "laser_frame"[label="Broadcaster: /base_link_to_laser4\nAverage rate: 25.110 Hz\nMost recent transform: 1587993587.214 ( -0.034 sec old)\nBuffer length: 4.978 sec\n"];
+"base_footprint" -> "laser"[label="Broadcaster: /base_link_to_laser\nAverage rate: 25.107 Hz\nMost recent transform: 1587993587.188 ( -0.008 sec old)\nBuffer length: 4.939 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1587993587.180"[ shape=plaintext ] ;
+ }->"base_footprint";
+}

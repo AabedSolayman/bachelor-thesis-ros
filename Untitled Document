@@ -1,0 +1,4 @@
+﻿
+1 Lidar sensor (OpenCv) for the Image processing
+
+Lidar sensor → Data → OpenCV → Pose and Orientation → Controller → velocities→ PWM → Robot

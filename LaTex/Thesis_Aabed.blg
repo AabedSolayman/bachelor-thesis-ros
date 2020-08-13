@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Thesis_Aabed.aux
+The style file: unsrt.bst
+Database file #1: Exported_Items.bib
+Warning--empty publisher in joseph_learning_2018
+You've used 8 entries,
+            1791 wiz_defined-function locations,
+            472 strings with 4342 characters,
+and the built_in function-call counts, 1211 in all, are:
+= -- 91
+> -- 33
+< -- 1
++ -- 16
+- -- 8
+* -- 39
+:= -- 156
+add.period$ -- 17
+call.type$ -- 8
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 66
+empty$ -- 167
+format.name$ -- 8
+if$ -- 293
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 5
+newline$ -- 36
+num.names$ -- 5
+pop$ -- 51
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 54
+stack$ -- 0
+substring$ -- 32
+swap$ -- 18
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 8
+width$ -- 9
+write$ -- 64
+(There was 1 warning)

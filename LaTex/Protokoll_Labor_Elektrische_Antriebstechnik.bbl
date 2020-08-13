@@ -1,0 +1,116 @@
+\begin{thebibliography}{10}
+
+\bibitem{calis_roboter_2020}
+Murat Calis.
+\newblock {\em Roboter mit {ROS}: {Bots} konstruieren und mit {Open} {Source}
+  programmieren}.
+\newblock dpunkt.verlag, January 2020.
+
+\bibitem{joseph_learning_2018}
+Lentin Joseph.
+\newblock {\em Learning {Robotics} using {Python} - {Second} {Edition}}.
+\newblock June 2018.
+
+\bibitem{yoonseok_ros_2017}
+Pyo Yoonseok, Lim Darby, Cho Hancheol, and Jung Leon.
+\newblock {\em {ROS} {Robot} {Programming} ({English})}.
+\newblock ROBOTIS, 2017.
+
+\bibitem{noauthor_catkin_nodate}
+Catkin {Conceptional} {Overview} - {ROS} {Wiki}.
+\newblock http://wiki.ros.org/catkin/conceptual\_overview, Accesed Date:
+  18.06.2020.
+
+\bibitem{tzafestas_introduction_2013}
+Spyros~G. Tzafestas.
+\newblock {\em Introduction to {Mobile} {Robot} {Control}}.
+\newblock Elsevier, October 2013.
+
+\bibitem{rubio_review_2019}
+Francisco Rubio, Francisco Valero, and Carlos Llopis-Albert.
+\newblock A review of mobile robots: {Concepts}, methods, theoretical
+  framework, and applications.
+\newblock {\em International Journal of Advanced Robotic Systems}, March 2019.
+
+\bibitem{corke_robotics_2017}
+Peter Corke.
+\newblock {\em Robotics, {Vision} and {Control}: {Fundamental} {Algorithms}
+  {In} {MATLAB}® {Second}, {Completely} {Revised}, {Extended} {And} {Updated}
+  {Edition}}.
+\newblock Springer, May 2017.
+
+\bibitem{aqel_review_2016}
+Mohammad O.~A. Aqel, Mohammad~H. Marhaban, M.~Iqbal Saripan, and Napsiah~Bt.
+  Ismail.
+\newblock Review of visual odometry: types, approaches, challenges, and
+  applications.
+\newblock {\em SpringerPlus}, 5(1):1897, October 2016.
+
+\bibitem{industries_adafruit_nodate}
+Adafruit Industries.
+\newblock Adafruit {Ultimate} {GPS} with {USB}.
+\newblock https://www.adafruit.com/product/4279, Accessed Date: 31.07.2020.
+
+\bibitem{noauthor_sparkfun_nodate}
+{SparkFun} {GPS}-{RTK2} {Board} - {SparkFun} {Electronics}.
+\newblock https://www.sparkfun.com/products/15136, Accessed Date: 31.07.2020.
+
+\bibitem{kwillms_english_2012}
+{K.Willms}.
+\newblock English: {Triangulation}, November 2012.
+\newblock https://commons.wikimedia.org/wiki/File:Triangulation\_englisch.jpg,
+  Date Accessed: 01.08.2020.
+
+\bibitem{noauthor_laser_nodate}
+Laser {Filters} - {ROS} {Wiki}.
+\newblock http://wiki.ros.org/laser\_filters, Accessed Date: 21.04.2020.
+
+\bibitem{przybyla_obstacle_detector_2020}
+Mateusz Przybyla.
+\newblock Obstacle\_detector, May 2020.
+\newblock https://github.com/tysik/obstacle\_detector, Accessed Date:
+  22.05.2020.
+
+\bibitem{noauthor_sensor_msgs_nodate}
+sensor\_msgs - {LaserScan} {Documentation}.
+\newblock http://docs.ros.org/melodic/api/sensor\_msgs/
+  html/msg/LaserScan.html, Accessed Date: 26.05.2020.
+
+\bibitem{noauthor_urdf_nodate}
+{URDF} {Joint} - {ROS} {Wiki}.
+\newblock http://wiki.ros.org/urdf/XML/joint, Accessed Date: 23.05.2020.
+
+\bibitem{noauthor_coordinate_nodate}
+Coordinate {Frames} for {Humanoid} {Robots}.
+\newblock https://www.ros.org/reps/rep-0120.html\#base-footprint, Date
+  Accessed: 23.05.2020.
+
+\bibitem{przybyla_detection_2017}
+Mateusz Przybyla.
+\newblock Detection and tracking of {2D} geometric obstacles from {LRF} data.
+\newblock In {\em 2017 11th {International} {Workshop} on {Robot} {Motion} and
+  {Control} ({RoMoCo})}, pages 135--141, July 2017.
+
+\bibitem{noauthor_opencv_nodate}
+{OpenCV}: {Introduction} to {OpenCV}-{Python} {Tutorials}.
+\newblock https://docs.opencv.org/master/d0/de3/tutorial\_py\_intro.html, Date
+  Accessed: 07.06.2020.
+
+\bibitem{censi_csm_nodate}
+Andrea Censi.
+\newblock {CSM} {\textbar} {Andrea} {Censi}'s {Website}.
+\newblock https://censi.science/software/csm/, Accessed Date: 17.06.2020.
+
+\bibitem{censi_accurate_2007}
+Andrea Censi.
+\newblock An accurate closed-form estimate of {ICP}'s covariance.
+\newblock In {\em Proceedings 2007 {IEEE} {International} {Conference} on
+  {Robotics} and {Automation}}, pages 3167--3172, Rome, Italy, April 2007.
+  IEEE.
+\newblock ISSN: 1050-4729.
+
+\bibitem{noauthor_laser_nodate-1}
+Laser {Scan} {Matcher} - {ROS} {Wiki}.
+\newblock http://wiki.ros.org/laser\_scan\_matcher, Date Accessed: 17.06.2020.
+
+\end{thebibliography}

@@ -1,0 +1,22 @@
+<launch>
+
+	<!--Rviz Tool -->
+  	<include file="$(find ydlidar)/launch/lidar_view.launch" />
+	
+	<!--Laser Filter-->
+  	<include file="$(find laser_filters)/examples/box_filter_example_double.launch" />
+	
+	<!--Obstacle Detector-->
+	<include file="$(find obstacle_detector)/launch/two_nodes.launch" />
+
+	<!-- Robot Visualization-->
+	<param name="robot_description" textfile="$(find legoboost_roboter)/urdf/lego_boost.urdf" />
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+        <node name="state_publisher" pkg="legoboost_roboter" type="state_publisher" />
+
+	<!--Pose Finder-->
+	<node name="pose_finder" pkg="obstacle_detector" type="pose_finder" />
+
+	<!--Following a Line Controller-->
+	<node name="controller" pkg="legoboost_roboter" type="controller.py" />
+</launch>

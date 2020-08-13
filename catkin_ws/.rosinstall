@@ -1,0 +1,13 @@
+- setup-file:
+    local-name: /opt/ros/melodic/setup.sh
+- git:
+    local-name: differential_drive
+    uri: https://github.com/jfstepha/differential-drive
+- other:
+    local-name: legoboost_robot
+- other:
+    local-name: sandbox
+- git:
+    local-name: src/geometry2
+    uri: https://github.com/ros/geometry2
+    version: 0.6.5

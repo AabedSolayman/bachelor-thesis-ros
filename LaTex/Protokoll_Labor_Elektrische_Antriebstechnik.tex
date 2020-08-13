@@ -1,0 +1,193 @@
+\documentclass[12pt,a4paper,twoside,final]{report}
+%
+%\usepackage{ngerman}            %Neue Rechtschreibung
+\usepackage{graphicx}           %Graphiken einbinden
+\usepackage[export]{adjustbox}	%Adding frames to graphics
+\usepackage{subcaption}
+\usepackage{fontenc}            %Verwenden von \"{o} \"{a} \"{u} {\ss}
+\usepackage[latin1]{inputenc}   %Verwenden von \"{o} \"{a} \"{u} {\ss}
+\usepackage{fancyhdr}           %Kopf-und Fusszeilen
+\usepackage{listings}
+\usepackage{theorem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{parskip}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{helvet}
+\usepackage[right]{eurosym}
+\usepackage{pdflscape}
+\usepackage[compact]{titlesec}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{shapes.arrows}
+\usetikzlibrary{decorations}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.text}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{intersections}
+\usepackage{grffile}
+\usepackage{zref-xr}
+\usepackage{makecell}
+\usepackage[a4paper,
+			textwidth = 16.5cm,
+			textheight = 25cm,
+			inner = 2.5cm]{geometry}
+\usepackage[toc,page]{appendix}
+		
+\usepackage[pdftex,
+			colorlinks,
+			linkcolor = black,
+			citecolor = black]{hyperref}
+			
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+%
+%--------------------------------------------------------------------
+%
+%Kopf- und Fuï¿½zeile
+%
+\pagestyle{fancyplain}
+ \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+ \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \lhead[\fancyplain{}{\sl\thepage}]{\fancyplain{}{\sl\rightmark}}
+ \rhead[\fancyplain{}{\sl\leftmark}]{\fancyplain{}{\sl\thepage}}
+ \lfoot{}
+ \cfoot{}
+ \rfoot{}
+%--------------------------------------------------------------------
+%
+%Definition der Abschnittsï¿½berschriften
+%
+\titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\thechapter}{16pt}{\huge}{}
+%\renewcommand{\thesection}{\alph{section}}
+\titleformat{\section}[hang]{\Large\bfseries}{\thesection}{10pt}{}
+%
+%--------------------------------------------------------------------
+%
+%Kommandos fï¿½r die Titelseitendaten
+%
+\newcommand{\VersuchNummer}[1]{\newcommand{\VNummer}{#1}}
+\newcommand{\VersuchName}[1]{\newcommand{\VName}{#1}}
+\newcommand{\Studiensemester}[1]{\newcommand{\SSemester}{#1}}
+\newcommand{\VersuchDatum}[1]{\newcommand{\VDatum}{#1}}
+\newcommand{\Bearbeiter}[1]{\newcommand{\VBearbeiter}{#1}}
+%
+%--------------------------------------------------------------------
+%
+\newcounter{requirementcount}
+\setcounter{requirementcount}{1}
+%
+%Titelseite
+%
+\input{protokolldaten}
+%
+\renewcommand\maketitle{
+\begin{titlepage}
+
+\thispagestyle{empty}
+%
+\begin{tabular}[t]{lp{0.25\textwidth}r}
+%
+\includegraphics[width = 0.25\textwidth]{./Bilder/Logo_HSRT_TEC_RGB.png}
+%
+&&\includegraphics[width = 0.4\textwidth]{./Bilder/Logo_HSRT_Schwarz.jpg}
+%
+\end{tabular}
+%
+
+\renewcommand{\baselinestretch}{1.2}
+
+\sf\large\textbf{Hochschule Reutlingen}\\
+\sf\large\textbf{Fakultät Technik}\\
+
+\vspace{7cm}
+
+{\sf\Huge\textbf{Bachelor thesis}}\\
+%
+\vspace{0.5cm}
+
+{\sf\huge{Sensor-based navigation of a robot under ROS with triangulation scanner}}\\
+
+
+\vspace{4.5cm}
+
+\renewcommand{\arraystretch}{2}
+%\begin{tabular}{|p{0.33\textwidth}p{0.33\textwidth}p{0.33\textwidth}|}
+%%
+%\hline
+%\multicolumn{2}{|p{0.66\textwidth}|}{Datum:~\VDatum}				&Studiensemester:~\SSemester		\\
+%\hline
+%\multicolumn{3}{|l|}{\VBearbeiter}\\
+%\hline
+%%
+%\end{tabular}
+\renewcommand{\arraystretch}{1}
+
+\renewcommand{\baselinestretch}{1}
+%
+
+\vfill
+%
+
+\includegraphics[width = \textwidth]{./Bilder/Silhouette_HSRT_045K.jpg}
+%
+\newpage
+\ 
+\thispagestyle{empty}
+%
+\end{titlepage}}
+%
+%--------------------------------------------------------------------
+%
+\begin{document}
+%
+
+
+\maketitle
+\spacing{1.5}
+\input{Erklaerung}
+\input{acknowledgment}
+
+\setcounter{page}{1}
+
+\tableofcontents 
+%
+\input{aufgaben}
+\bibliographystyle{unsrt}
+\bibliography{Exported_Items}
+%
+%
+\end{document}
+

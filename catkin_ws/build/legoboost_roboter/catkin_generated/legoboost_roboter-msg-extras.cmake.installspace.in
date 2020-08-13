@@ -1,0 +1,2 @@
+set(legoboost_roboter_MESSAGE_FILES "msg/CircleObstacle.msg;msg/SegmentObstacle.msg;msg/Obstacles.msg")
+set(legoboost_roboter_SERVICE_FILES "")

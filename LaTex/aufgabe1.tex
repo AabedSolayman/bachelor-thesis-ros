@@ -1,0 +1,34 @@
+%--------------------------------------------------------------------
+%
+%Mustervorlage fuer eine Aufgabe
+%
+%--------------------------------------------------------------------
+%
+%Ueberschreiben der automatisch erzeugten Aufgabennummer
+%Die folgende Aufgabennummer ergibt sich aus dem Stand des
+%Zählers + 1
+%\setcounter{chapter}{0}
+%
+% 2 pages
+\chapter{Introduction}\label{chap:introduction}
+%
+%Teilaufgabe 1
+
+%
+\section{Motivation}\label{sec:motivation}
+%
+Mobile robots have received much attention in the past few years. The number of applications of mobile robots, especially in the industry, has increased enormously. The autonomous navigation is one of the main challenges in the design and implementation of mobile robots. The approaches developed for the navigation of mobile robots are very diverse. Most of these approaches are based on several hardware components, such as embedded laser scanners, odometry sensors, and other components. Thus, developing an approach where only one sensor is used instead of several sensors will decrease the robot's costs.\\
+Furthermore, the development of mobile is a complex process. The motivation behind this project is to develop a maintainable robot navigation approach that can be transferable and adaptable to other robots and hardware components.  This can be done by using ROS, which will be explained in later chapters.
+%
+%---------------------------------------------------------------------
+%
+\section{Problem Statement}\label{sec:problemStatement}
+%
+This project is divided into several hardware and software components. The main element is the PC, which can be seen as a master. Other elements, such as a triangulation laser scanner, a lego boost robot, localization algorithms, and motion control algorithms can be viewed as slaves.\\
+First, a ROS system must be installed and created on the PC. Then a simple Lego Boost robot must be assembled, including the robot's connection to the PC. A triangulation laser scanner must be later integrated into the system. The next problem is the implementation of the localization algorithms. Lastly, the motion control algorithms must be implemented and integrated into the system. 
+%
+%---------------------------------------------------------------------
+%
+\section{Aim}\label{sec:aim}
+%
+The final aim of this project is to build a ROS system consisting of a Lego Boost robot, a triangulation sensor, a localization and control algorithm. All these components are represented by individual ROS nodes. The triangulation sensor is fixed in the room, and the controller lets the robot follow a user-predefined path in the room.

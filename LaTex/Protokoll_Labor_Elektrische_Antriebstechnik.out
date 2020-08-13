@@ -1,0 +1,33 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Problem Statement}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Aim}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Robots Operating System ROS}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Robot Software Platforms}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{ROS Working Principle}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Differential Driver Robots}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Triangulation Laser Scanner}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.3.1}{Localization Sensors and Methods}{section.2.3}% 11
+\BOOKMARK [2][-]{subsection.2.3.2}{Triangulation Laser Scanner Working Principle}{section.2.3}% 12
+\BOOKMARK [0][-]{chapter.3}{Methodology and Implementation}{}% 13
+\BOOKMARK [1][-]{section.3.1}{ROS Software Architecture}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{ROS Filesystem}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{ROS Computation Graph}{section.3.1}% 16
+\BOOKMARK [1][-]{section.3.2}{Model Architecture and Visualization}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.2.1}{Model Design}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{Model Visualization}{section.3.2}% 19
+\BOOKMARK [1][-]{section.3.3}{Robot Localization}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{Circular Object Detection}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{Image Processing}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.3}{Laser Scan Matcher}{section.3.3}% 23
+\BOOKMARK [1][-]{section.3.4}{Motion Control and System Integration}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.4.1}{Motion Control}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.2}{System Integration}{section.3.4}% 26
+\BOOKMARK [0][-]{chapter.4}{Results and Future Work}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Control Results}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Future Work}{chapter.4}% 29
+\BOOKMARK [0][-]{chapter.5}{Summary}{}% 30
+\BOOKMARK [0][-]{section*.30}{Appendices}{}% 31
+\BOOKMARK [0][-]{Appendix.a.A}{YDLIDAR X2 Datasheet}{}% 32
+\BOOKMARK [0][-]{Appendix.a.B}{Directory Structure}{}% 33

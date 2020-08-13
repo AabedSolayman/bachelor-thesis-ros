@@ -72,7 +72,7 @@ The definition of mobile robots is usually associated with autonomous movement. 
 
 The difference between these categories relies on the driving system of each robot. This subsection gives a theoretical explanation of the differential mobile robots since it is the type of mobile robot used for the project.
 
-Differentially driven mobile robots are used in various applications, such as internal logistics or automated gastronomy, due to its design simplicity. As shown in figure \ref{fig2_4}, the drive system of differentially driven mobile robots consists of two wheels placed on the right and the left side of the robot, where each wheel is controlled by a separate motor \cite{tzafestas_introduction_2013}. Moreover, most of the time, there is one more omnidirectional wheel or a caster wheel that provides the stability of the robot enables the robot to move even on uneven surfaces. The speed and direction of the right and left wheels determine the robot's motion. By using different wheel speeds and directions, the motion of differentially driven robots can be explained as an arc around a point, which is the Instantaneous Center of Rotation (ICR), as shown in figure \ref{fig2_4} \cite{corke_robotics_2017}. 
+Differentially driven mobile robots are used in various applications, such as internal logistics or automated gastronomy, due to its design simplicity. As shown in figure \ref{fig2_4}, the drive system of differentially driven mobile robots consists of two wheels placed on the right and the left side of the robot, where each wheel is controlled by a separate motor \cite{tzafestas_introduction_2013}. Moreover, most of the time, there is one more omnidirectional wheel or a caster wheel that provides the stability of the robot. This wheel enables the robot to move even on uneven surfaces. The speed and direction of the right and left wheels determine the robot's motion. By using different wheel speeds and directions, the motion of differentially driven robots can be explained as an arc around a point, which is the Instantaneous Center of Rotation (ICR), as shown in figure \ref{fig2_4} \cite{corke_robotics_2017}. 
 \begin{figure}[ht]
 \centering
 \includegraphics[width = 0.7\textwidth, frame]{./Bilder/differentialdrive.png}
@@ -103,7 +103,7 @@ where \hspace{13mm} $v_L, v_R$ are the velocities of left and right wheels, resp
  	  \hspace*{25mm} $v$ = $\frac{1}{2}\cdot(v_R+v_L)$\\
 	  
 
-By using these equations, a controller can be designed to achieve a specific goal such as, following a trajectory, or following a line, or moving to a specific point. The implementation of controllers is explained in a later chapter.
+By using these equations, a control algorithm can be designed to achieve a specific goal such as, following a trajectory, or following a line, or moving to a specific point. The implementation of the control algorithm is explained in a later chapter.
 %
 %
 %--------------------------------------------------------------------
@@ -117,13 +117,13 @@ Another module of the project is the laser scanner. The laser scanner is used to
 
 \subsection{Localization Sensors and Methods}
 \textbf{Wheel Odometry:}\\
-The position of the robot can be estimated by using  rotary encoders. The rotary encoders are embedded in each wheel. The idea behind odometry sensors is to calculate the number of revolutions of the wheel.  By knowing the radius of the wheel, the moved distance can be then calculated. The wheel odometry method is simple and is used in many applications. However, several problems occur while implementing this method. As described in \cite{aqel_review_2016}, the main problem is the position draft due to the wheel slippage. This leads to inaccurate position estimation.
+The position of the robot can be estimated by using  rotary encoders. The rotary encoders are embedded in each wheel. The idea behind rotary encoders is to calculate the number of revolutions of the wheel.  By knowing the radius of the wheel, the moved distance can be then calculated. The wheel odometry method is simple and is used in many applications. However, several problems occur while implementing this method. As described in \cite{aqel_review_2016}, the main problem is the position draft due to the wheel slippage. This leads to inaccurate position estimation.
 
 \textbf{GPS:}\\
 Global Positioning System (GPS) is another localization method that can be used. It is used in different applications as transportations, agriculture, and aviation. Using a GPS receiver, the position of the robot can be determined with the help of four satellites. The main problem with using a GPS sensor is its measurement accuracy. For example, Adafruit Ultimate GPS has an accuracy of 3 meters and costs around 40\euro  \cite{industries_adafruit_nodate}. Another sensor is SparkFun GPS-RTK2, which has an accuracy of 2.5 meters and costs around 200 \euro \cite{noauthor_sparkfun_nodate}. Another problem is the reduction of accuracy in indoor applications. Thus, GPS sensor-based applications are used outdoors due to week signals from the GPS satellites.
 
 \textbf{Ultrasonic Sensors:}\\
-Ultrasonic sensors measure the distance to an obstacle by using ultrasonic waves. As described in \cite{aqel_review_2016}, the major disadvantage of ultrasonic sensors is the dependence on the material and the orientation of the measured object surface. Another disadvantage of the ultrasonic sensors is the poor lateral resolution (also called angular resolution) Additionally, the noise of the environment affects the accuracy of the measurement. In figure \ref{ultrasonic} is an example of ultrasonic sensors.
+Ultrasonic sensors measure the distance to an obstacle by using ultrasonic waves. As described in \cite{aqel_review_2016}, the major disadvantage of ultrasonic sensors is the dependence on the material and the orientation of the measured object surface. Another disadvantage of the ultrasonic sensors is the poor lateral resolution (also called angular resolution). Additionally, the noise of the environment affects the accuracy of the measurement. In figure \ref{ultrasonic} is an example of ultrasonic sensors.
 
 \begin{figure}[ht]
 \centering
@@ -135,7 +135,7 @@ Ultrasonic sensors measure the distance to an obstacle by using ultrasonic waves
 \textbf{Laser Sensors:}\\
 Laser sensors are widely used for navigation and localization purposes. The application purpose of laser sensors is similar to ultrasonic sensors, where the distances to objects are detected. Laser sensors, however, as the name indicates, use a laser instead of ultrasonic waves. Laser sensors can be specified into two main types, namely position-based (triangulation) or time-based (LIDAR) sensors. LIDAR sensors calculate the distance to an object by measuring the time the laser took from the laser source to the object and back.  An example of LIDAR sensors is the Sick 2D-Laserscanner LMS100, which costs around 3000 \euro.
 
-Triangulation Laser scanners use another technique to measure the distance to objects. It doesn't use the time of flight but the direction of the reflected light to determine the range of an object. In this project, the triangulation laser scanner YDLIDAR X2 which is displayed in figure \ref{ydlidar}, is used. It costs around 70 \euro, which is much cheaper than LIDAR sensors. The working principle of the triangulation laser scanner will be discussed in the following subsection. 
+Triangulation Laser scanners use another technique to measure the distance to objects. It does not use the time of flight but the direction of the reflected light to determine the range of an object. In this project, the triangulation laser scanner YDLIDAR X2 which is displayed in figure \ref{ydlidar}, is used. It costs around 70 \euro, which is much cheaper than LIDAR sensors. The working principle of the triangulation laser scanner will be discussed in the following subsection. 
 
 \begin{figure}[ht]
 \centering
@@ -144,7 +144,7 @@ Triangulation Laser scanners use another technique to measure the distance to ob
 \label{ydlidar}
 \end{figure}
 
-As explained in \cite{aqel_review_2016}, the following table describes the advantages and disadvantages of each method. 
+As explained in \cite{aqel_review_2016}, the following table describes the advantages and disadvantages of each sensor. 
 
 \begin{table}[h]
 \centering

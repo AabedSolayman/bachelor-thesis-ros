@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.11)  12 AUG 2020 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.11)  13 AUG 2020 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1206,26 +1206,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 LaTeX Warning: Label `chap:acknowledgment' multiply defined.
 
-
-LaTeX Warning: Label `ydlidar' multiply defined.
-
 )
 \openout1 = `Protokoll_Labor_Elektrische_Antriebstechnik.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count336
@@ -1310,7 +1307,7 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 174.
+Package hyperref Info: Link coloring ON on input line 186.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1319,9 +1316,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count343
 )
-LaTeX Info: Redefining \ref on input line 174.
-LaTeX Info: Redefining \pageref on input line 174.
-LaTeX Info: Redefining \nameref on input line 174.
+LaTeX Info: Redefining \ref on input line 186.
+LaTeX Info: Redefining \pageref on input line 186.
+LaTeX Info: Redefining \nameref on input line 186.
 
 (./Protokoll_Labor_Elektrische_Antriebstechnik.out)
 (./Protokoll_Labor_Elektrische_Antriebstechnik.out)
@@ -1329,12 +1326,12 @@ LaTeX Info: Redefining \nameref on input line 174.
 \openout4 = `Protokoll_Labor_Elektrische_Antriebstechnik.out'.
 
 \c__siunitx_mathsf_int=\count344
-LaTeX Font Info:    Try loading font information for U+msa on input line 174.
+LaTeX Font Info:    Try loading font information for U+msa on input line 186.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 174.
+LaTeX Font Info:    Try loading font information for U+msb on input line 186.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1343,32 +1340,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./Bilder/Logo_HSRT_TEC_RGB.png, id=139, 133.2177pt x 50.1072pt>
 File: ./Bilder/Logo_HSRT_TEC_RGB.png Graphic file (type png)
 <use ./Bilder/Logo_HSRT_TEC_RGB.png>
-Package pdftex.def Info: ./Bilder/Logo_HSRT_TEC_RGB.png  used on input line 178
+Package pdftex.def Info: ./Bilder/Logo_HSRT_TEC_RGB.png  used on input line 190
 .
 (pdftex.def)             Requested size: 117.36761pt x 44.1472pt.
 <./Bilder/Logo_HSRT_Schwarz.jpg, id=140, 207.174pt x 50.1072pt>
 File: ./Bilder/Logo_HSRT_Schwarz.jpg Graphic file (type jpg)
 <use ./Bilder/Logo_HSRT_Schwarz.jpg>
-Package pdftex.def Info: ./Bilder/Logo_HSRT_Schwarz.jpg  used on input line 178
+Package pdftex.def Info: ./Bilder/Logo_HSRT_Schwarz.jpg  used on input line 190
 .
 (pdftex.def)             Requested size: 187.78531pt x 45.41792pt.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 178.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 190.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 178.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 190.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 
  []
 
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 178.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 
  []
 
@@ -1376,7 +1371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--178
 File: ./Bilder/Silhouette_HSRT_045K.jpg Graphic file (type jpg)
 <use ./Bilder/Silhouette_HSRT_045K.jpg>
 Package pdftex.def Info: ./Bilder/Silhouette_HSRT_045K.jpg  used on input line 
-178.
+190.
 (pdftex.def)             Requested size: 469.47046pt x 18.4034pt.
 [1
 
@@ -1395,7 +1390,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185 \tableofcontents
+l.197 \tableofcontents
                        [1
 
 ] (./Protokoll_Labor_Elektrische_Antriebstechnik.tocpdfTeX warning (ext4): dest
@@ -1422,7 +1417,7 @@ Chapter 1.
 
 ] [5]
 Chapter 2.
-<./Bilder/roslayers.png, id=221, 175.3752pt x 214.401pt>
+<./Bilder/roslayers.png, id=220, 175.3752pt x 214.401pt>
 File: ./Bilder/roslayers.png Graphic file (type png)
 <use ./Bilder/roslayers.png>
 Package pdftex.def Info: ./Bilder/roslayers.png  used on input line 32.
@@ -1430,19 +1425,19 @@ Package pdftex.def Info: ./Bilder/roslayers.png  used on input line 32.
 [6
 
 ] [7 <./Bilder/roslayers.png>]
-<./Bilder/umlROS.png, id=239, 348.1005pt x 230.5413pt>
+<./Bilder/umlROS.png, id=238, 348.1005pt x 230.5413pt>
 File: ./Bilder/umlROS.png Graphic file (type png)
 <use ./Bilder/umlROS.png>
 Package pdftex.def Info: ./Bilder/umlROS.png  used on input line 48.
 (pdftex.def)             Requested size: 375.57779pt x 248.74168pt.
  [8]
-<./Bilder/robottypes.png, id=251, 262.0992pt x 207.8967pt>
+<./Bilder/robottypes.png, id=250, 262.0992pt x 207.8967pt>
 File: ./Bilder/robottypes.png Graphic file (type png)
 <use ./Bilder/robottypes.png>
 Package pdftex.def Info: ./Bilder/robottypes.png  used on input line 68.
 (pdftex.def)             Requested size: 281.68513pt x 223.43382pt.
  [9 <./Bilder/umlROS.png>]
-<./Bilder/differentialdrive.png, id=264, 351.4731pt x 297.7524pt>
+<./Bilder/differentialdrive.png, id=263, 351.4731pt x 297.7524pt>
 File: ./Bilder/differentialdrive.png Graphic file (type png)
 <use ./Bilder/differentialdrive.png>
 Package pdftex.def Info: ./Bilder/differentialdrive.png  used on input line 78.
@@ -1454,13 +1449,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--104
  []
 
 [11 <./Bilder/differentialdrive.png>]
-<./Bilder/Ultrasonic.png, id=293, 1842.885pt x 858.20625pt>
+<./Bilder/Ultrasonic.png, id=292, 1842.885pt x 858.20625pt>
 File: ./Bilder/Ultrasonic.png Graphic file (type png)
 <use ./Bilder/Ultrasonic.png>
 Package pdftex.def Info: ./Bilder/Ultrasonic.png  used on input line 130.
 (pdftex.def)             Requested size: 234.73523pt x 109.30527pt.
  [12]
-<./Bilder/ydlidar.jpg, id=304, 642.4pt x 501.875pt>
+<./Bilder/ydlidar.jpg, id=303, 642.4pt x 501.875pt>
 File: ./Bilder/ydlidar.jpg Graphic file (type jpg)
 <use ./Bilder/ydlidar.jpg>
 Package pdftex.def Info: ./Bilder/ydlidar.jpg  used on input line 142.
@@ -1481,14 +1476,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 3635) has occurred while \output is active []
 
  [13 <./Bilder/Ultrasonic.png> <./Bilder/ydlidar.jpg>]
-<./Bilder/triang.jpg, id=314, 206.6922pt x 246.4407pt>
+<./Bilder/triang.jpg, id=312, 206.6922pt x 246.4407pt>
 File: ./Bilder/triang.jpg Graphic file (type jpg)
 <use ./Bilder/triang.jpg>
 Package pdftex.def Info: ./Bilder/triang.jpg  used on input line 176.
 (pdftex.def)             Requested size: 328.62788pt x 391.83131pt.
 ) (./aufgabe3.tex [14] [15 <./Bilder/triang.jpg>]
 Chapter 3.
-<./Bilder/UML_Architecture.png, id=333, 305.4612pt x 190.311pt>
+<./Bilder/UML_Architecture.png, id=331, 305.4612pt x 190.311pt>
 File: ./Bilder/UML_Architecture.png Graphic file (type png)
 <use ./Bilder/UML_Architecture.png>
 Package pdftex.def Info: ./Bilder/UML_Architecture.png  used on input line 27.
@@ -1496,7 +1491,7 @@ Package pdftex.def Info: ./Bilder/UML_Architecture.png  used on input line 27.
 [16
 
 ]
-<./Bilder/UML_Packages.png, id=343, 266.9172pt x 153.2124pt>
+<./Bilder/UML_Packages.png, id=341, 266.9172pt x 153.2124pt>
 File: ./Bilder/UML_Packages.png Graphic file (type png)
 <use ./Bilder/UML_Packages.png>
 Package pdftex.def Info: ./Bilder/UML_Packages.png  used on input line 40.
@@ -1505,7 +1500,7 @@ Package pdftex.def Info: ./Bilder/UML_Packages.png  used on input line 40.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-<./Bilder/rosgraph_nodes.png, id=365, 2467.2175pt x 894.34125pt>
+<./Bilder/rosgraph_nodes.png, id=363, 2467.2175pt x 894.34125pt>
 File: ./Bilder/rosgraph_nodes.png Graphic file (type png)
 <use ./Bilder/rosgraph_nodes.png>
 Package pdftex.def Info: ./Bilder/rosgraph_nodes.png  used on input line 72.
@@ -1516,7 +1511,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 72--72
  []
 
 [19 <./Bilder/rosgraph_nodes.png>]
-<./Bilder/room1.png, id=376, 1211.52625pt x 1013.7875pt>
+<./Bilder/room1.png, id=374, 1211.52625pt x 1013.7875pt>
 File: ./Bilder/room1.png Graphic file (type png)
 <use ./Bilder/room1.png>
 Package pdftex.def Info: ./Bilder/room1.png  used on input line 90.
@@ -1526,18 +1521,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 [21 <./Bilder/room1.png>]
-<./Bilder/Robot_Top.png, id=394, 771.88374pt x 324.21124pt>
+<./Bilder/Robot_Top.png, id=392, 771.88374pt x 324.21124pt>
 File: ./Bilder/Robot_Top.png Graphic file (type png)
 <use ./Bilder/Robot_Top.png>
 Package pdftex.def Info: ./Bilder/Robot_Top.png  used on input line 130.
 (pdftex.def)             Requested size: 234.73523pt x 98.59488pt.
-<./Bilder/Robot_Side1.png, id=395, 797.98125pt x 383.4325pt>
+<./Bilder/Robot_Side1.png, id=393, 797.98125pt x 383.4325pt>
 File: ./Bilder/Robot_Side1.png Graphic file (type png)
 <use ./Bilder/Robot_Side1.png>
 Package pdftex.def Info: ./Bilder/Robot_Side1.png  used on input line 136.
 (pdftex.def)             Requested size: 187.7889pt x 90.2295pt.
  [22]
-<./Bilder/geogebra.png, id=410, 1715.40875pt x 1182.4175pt>
+<./Bilder/geogebra.png, id=408, 1715.40875pt x 1182.4175pt>
 File: ./Bilder/geogebra.png Graphic file (type png)
 <use ./Bilder/geogebra.png>
 Package pdftex.def Info: ./Bilder/geogebra.png  used on input line 159.
@@ -1549,13 +1544,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./Bilder/geogebra.png>]
-<./Bilder/legoboost_robot.png, id=435, 1138.2525pt x 1172.38pt>
+<./Bilder/legoboost_robot.png, id=433, 1138.2525pt x 1172.38pt>
 File: ./Bilder/legoboost_robot.png Graphic file (type png)
 <use ./Bilder/legoboost_robot.png>
 Package pdftex.def Info: ./Bilder/legoboost_robot.png  used on input line 193.
 (pdftex.def)             Requested size: 281.68513pt x 290.1247pt.
  [25]
-<./Bilder/rviz_screenshot.png, id=444, 896.34875pt x 771.88374pt>
+<./Bilder/rviz_screenshot.png, id=442, 896.34875pt x 771.88374pt>
 File: ./Bilder/rviz_screenshot.png Graphic file (type png)
 <use ./Bilder/rviz_screenshot.png>
 Package pdftex.def Info: ./Bilder/rviz_screenshot.png  used on input line 211.
@@ -1570,7 +1565,7 @@ Overfull \hbox (6.09497pt too wide) in paragraph at lines 230--232
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./Bilder/rviz_screenshot.png>]
-<./Bilder/geogebra_transform.png, id=460, 1449.415pt x 1455.4375pt>
+<./Bilder/geogebra_transform.png, id=458, 1449.415pt x 1455.4375pt>
 File: ./Bilder/geogebra_transform.png Graphic file (type png)
 <use ./Bilder/geogebra_transform.png>
 Package pdftex.def Info: ./Bilder/geogebra_transform.png  used on input line 23
@@ -1593,7 +1588,7 @@ Overfull \hbox (43.08096pt too wide) in paragraph at lines 311--314
 Underfull \vbox (badness 2096) has occurred while \output is active []
 
  [31]
-<./Bilder/compgraph2.png, id=499, 364.4817pt x 157.7895pt>
+<./Bilder/compgraph2.png, id=497, 364.4817pt x 157.7895pt>
 File: ./Bilder/compgraph2.png Graphic file (type png)
 <use ./Bilder/compgraph2.png>
 Package pdftex.def Info: ./Bilder/compgraph2.png  used on input line 334.
@@ -1603,7 +1598,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 334--335
  [][] 
  []
 
-<./Bilder/activity.png, id=501, 757.83125pt x 560.0925pt>
+<./Bilder/activity.png, id=499, 757.83125pt x 560.0925pt>
 File: ./Bilder/activity.png Graphic file (type png)
 <use ./Bilder/activity.png>
 Package pdftex.def Info: ./Bilder/activity.png  used on input line 343.
@@ -1615,7 +1610,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 348.
 Underfull \vbox (badness 1354) has occurred while \output is active []
 
  [33 <./Bilder/activity.png>] [34]
-<./Bilder/lsmgraph.png, id=531, 893.3375pt x 443.6575pt>
+<./Bilder/lsmgraph.png, id=529, 893.3375pt x 443.6575pt>
 File: ./Bilder/lsmgraph.png Graphic file (type png)
 <use ./Bilder/lsmgraph.png>
 Package pdftex.def Info: ./Bilder/lsmgraph.png  used on input line 400.
@@ -1643,7 +1638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
-<./Bilder/Simulink.png, id=560, 842.54774pt x 337.26pt>
+<./Bilder/Simulink.png, id=558, 842.54774pt x 337.26pt>
 File: ./Bilder/Simulink.png Graphic file (type png)
 <use ./Bilder/Simulink.png>
 Package pdftex.def Info: ./Bilder/Simulink.png  used on input line 463.
@@ -1653,7 +1648,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 463--464
  [][] 
  []
 
-<./Bilder/XMLROS.png, id=562, 750.805pt x 250.9375pt>
+<./Bilder/XMLROS.png, id=560, 750.805pt x 250.9375pt>
 File: ./Bilder/XMLROS.png Graphic file (type png)
 <use ./Bilder/XMLROS.png>
 Package pdftex.def Info: ./Bilder/XMLROS.png  used on input line 475.
@@ -1679,12 +1674,12 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 36.
 [40
 
 ]
-<./Bilder/Figure_1A.png, id=590, 1929.2075pt x 994.71625pt>
+<./Bilder/Figure_1A.png, id=588, 1929.2075pt x 994.71625pt>
 File: ./Bilder/Figure_1A.png Graphic file (type png)
 <use ./Bilder/Figure_1A.png>
 Package pdftex.def Info: ./Bilder/Figure_1A.png  used on input line 41.
 (pdftex.def)             Requested size: 469.47046pt x 242.06079pt.
-<./Bilder/Figure_1B.png, id=591, 1951.29pt x 994.71625pt>
+<./Bilder/Figure_1B.png, id=589, 1951.29pt x 994.71625pt>
 File: ./Bilder/Figure_1B.png Graphic file (type png)
 <use ./Bilder/Figure_1B.png>
 Package pdftex.def Info: ./Bilder/Figure_1B.png  used on input line 49.
@@ -1697,12 +1692,12 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 58.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 58.
 
 [41 <./Bilder/Figure_1A.png> <./Bilder/Figure_1B.png>]
-<./Bilder/Figure_2A.png, id=600, 1980.39874pt x 994.71625pt>
+<./Bilder/Figure_2A.png, id=598, 1980.39874pt x 994.71625pt>
 File: ./Bilder/Figure_2A.png Graphic file (type png)
 <use ./Bilder/Figure_2A.png>
 Package pdftex.def Info: ./Bilder/Figure_2A.png  used on input line 64.
 (pdftex.def)             Requested size: 469.47046pt x 235.80739pt.
-<./Bilder/Figure_2B.png, id=601, 1925.1925pt x 994.71625pt>
+<./Bilder/Figure_2B.png, id=599, 1925.1925pt x 994.71625pt>
 File: ./Bilder/Figure_2B.png Graphic file (type png)
 <use ./Bilder/Figure_2B.png>
 Package pdftex.def Info: ./Bilder/Figure_2B.png  used on input line 73.
@@ -1711,7 +1706,7 @@ Package pdftex.def Info: ./Bilder/Figure_2B.png  used on input line 73.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 83.
 
-<./Bilder/Figure_3A.png, id=603, 1945.2675pt x 994.71625pt>
+<./Bilder/Figure_3A.png, id=601, 1945.2675pt x 994.71625pt>
 File: ./Bilder/Figure_3A.png Graphic file (type png)
 <use ./Bilder/Figure_3A.png>
 Package pdftex.def Info: ./Bilder/Figure_3A.png  used on input line 86.
@@ -1739,7 +1734,7 @@ Chapter 5.
 
 ]
 Appendix A.
-<./Bilder/sensorappendix.png, id=631, 659.46375pt x 897.3525pt>
+<./Bilder/sensorappendix.png, id=629, 659.46375pt x 897.3525pt>
 File: ./Bilder/sensorappendix.png Graphic file (type png)
 <use ./Bilder/sensorappendix.png>
 Package pdftex.def Info: ./Bilder/sensorappendix.png  used on input line 20.
@@ -1748,15 +1743,15 @@ Package pdftex.def Info: ./Bilder/sensorappendix.png  used on input line 20.
 
  <./Bilder/sensorappendix.png>]
 Appendix B.
-<./Bilder/tree_app1.png, id=637, 579.16376pt x 878.28125pt>
+<./Bilder/tree_app1.png, id=636, 579.16376pt x 878.28125pt>
 File: ./Bilder/tree_app1.png Graphic file (type png)
 <use ./Bilder/tree_app1.png>
-Package pdftex.def Info: ./Bilder/tree_app1.png  used on input line 29.
+Package pdftex.def Info: ./Bilder/tree_app1.png  used on input line 28.
 (pdftex.def)             Requested size: 328.62788pt x 498.34727pt.
-<./Bilder/tree_app2.png, id=638, 615.29875pt x 917.4275pt>
+<./Bilder/tree_app2.png, id=637, 615.29875pt x 917.4275pt>
 File: ./Bilder/tree_app2.png Graphic file (type png)
 <use ./Bilder/tree_app2.png>
-Package pdftex.def Info: ./Bilder/tree_app2.png  used on input line 35.
+Package pdftex.def Info: ./Bilder/tree_app2.png  used on input line 34.
 (pdftex.def)             Requested size: 328.62788pt x 489.99994pt.
 )) (./Protokoll_Labor_Elektrische_Antriebstechnik.bbl [48
 
@@ -1814,11 +1809,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--98
  []
 
 ) [51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./Protokoll_Labor_Elektrische_Antriebstechnik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `Protokoll_Labor_Elektrische_Antriebstechnik.
 out' has not changed.
 (rerunfilecheck)             Checksum: 6957D5367DAD988C19DDD32D615D5B88;2227.
@@ -1826,18 +1821,18 @@ out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 179 (\begingroup)
+### semi simple group (level 1) entered at line 191 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34534 strings out of 492982
- 691265 string characters out of 6134896
- 722749 words of memory out of 5000000
- 37364 multiletter control sequences out of 15000+600000
- 545807 words of font info for 65 fonts, out of 8000000 for 9000
+ 34533 strings out of 492982
+ 691247 string characters out of 6134896
+ 723059 words of memory out of 5000000
+ 37363 multiletter control sequences out of 15000+600000
+ 545991 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,15n,94p,10415b,1149s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
@@ -1854,13 +1849,12 @@ sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/helvetic/uhvr8a.pfb>
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
 Output written on Protokoll_Labor_Elektrische_Antriebstechnik.pdf (54 pages, 21
-47454 bytes).
+43134 bytes).
 PDF statistics:
- 755 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
+ 751 PDF objects out of 1000 (max. 8388607)
+ 617 compressed objects within 7 object streams
  179 named destinations out of 1000 (max. 500000)
  442 words of extra memory for PDF output out of 10000 (max. 10000000)
 

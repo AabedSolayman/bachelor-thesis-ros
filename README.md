@@ -20,3 +20,18 @@ scanner must be later integrated into the system. The next problem is the implem
 of the localization algorithms. Lastly, the motion control algorithms must be implemented
 and integrated into the system.
 
+## Packages
+  - Obstacle Detector
+  - Laser Filter
+  - Ydlidar ROS
+  - LegoBoost_Roboter
+  
+  
+## Coded by me:
+  - catkin_ws/src/legoboost_roboter/src/controller/controller.py
+  - catkin_ws/src/legoboost_roboter/src/pose_finder/pose_finder.cpp
+  - catkin_ws/src/legoboost_roboter/urdf/lego_boost.urdf
+  
+## How to launch the project:
+  - catkin_ws/src/legoboost_roboter/load_LB_line_follower.launch
+  
